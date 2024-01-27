@@ -28,7 +28,9 @@ function App() {
     try{
       const res = await fetch(`https://ipwho.is/${
         checkIpAddress.test(ipAddress) ? ipAddress == '192.168.1.1' ? "" : `${ipAddress}` : ''
-      }?api-key=${import.meta.env.VITE_API_KEY}`);
+      }?api-key=${import.meta.env.VITE_API_KEY}`,{
+        method: 'GET',
+      });
       const data = await res.json();
       setLocation(data);
     }catch(error){

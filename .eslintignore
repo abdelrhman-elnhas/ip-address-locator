@@ -1,0 +1,9 @@
+node_modules/
+dist/
+prettier.config.js
+vite.config.js
+.eslintrcc.cjs
+env.d.js
+tailwind.config.js
+postcss.config.js
+babel.config.js

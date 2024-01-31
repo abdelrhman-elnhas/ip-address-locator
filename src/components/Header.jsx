@@ -14,7 +14,7 @@ function Header({location , ipAddress , handleSubmit , updateIp}) {
     <section className="relative w-full h-72 object-cover -mb-6" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
       <div className="p-8">
         <h1 className="text-2xl text-center text-white font-bold mb-8 lg:text-3xl">
-          IP Address Tracker
+          لما سالتك هي منتقبة ولا لا لان للاسف الفترة في اختفاء قصري للبنات دي بس مش متاكد ,, ف لو كدا هيبقى لازم تبلغ ف الشرطة و تتاكد انها مش مقبوض عليها لاي سبب سياسي او ديني
         </h1>
         <form onSubmit={handleSubmit} className="flex justify-center max-w-xl mx-auto" action="">
           <input
